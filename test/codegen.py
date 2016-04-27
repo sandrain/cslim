@@ -23,6 +23,8 @@ def gen_lib():
 
     hf = open('test.h', 'w')
     cf = open('test.c', 'w')
+    hf.write('#include <stdio.h>\n\n')
+    hf.write('#include "compat.h"\n\n')
     cf.write('#include "test.h"\n\n')
 
     sql = 'select func, file, line from lib order by lid asc'
@@ -37,6 +39,7 @@ def gen_compat():
 
     hf = open('compat.h', 'w')
     cf = open('compat.c', 'w')
+    hf.write('#include <stdio.h>\n\n')
     cf.write('#include "compat.h"\n\n')
 
     sql = 'select func, file, line from compat order by cid asc'

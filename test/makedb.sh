@@ -3,8 +3,8 @@
 find . -iname "*.c" > cscope.files
 find . -iname "*.h" >> cscope.files
 
-cscope -cb
+cscope -cbk
 ctags --fields=+i -n -R -L cscope.files
 
-#cqmakedb -s source.db -c cscope.out -t tags -p
+#~/sw/bin/cqmakedb -s source.db -c cscope.out -t tags -p
 
