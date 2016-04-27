@@ -6,17 +6,17 @@ import linecache
 testdb = sqlite3.connect('test.db')
 
 def print_function(path, linenum, hf, cf):
+    line = linecache.getline(path, linenum)
+    hf.write('%s;\n' % line.strip())
+
+    while True:
         line = linecache.getline(path, linenum)
-        hf.write('%s;\n' % line.strip())
+        cf.write(line)
+        if line[0] == '}':
+            break
+        linenum += 1
 
-        while True:
-            line = linecache.getline(path, linenum)
-            cf.write(line)
-            if line[0] == '}':
-                break
-            linenum += 1
-
-        cf.write('\n')
+    cf.write('\n')
 
 def gen_lib():
     t = testdb.cursor()
