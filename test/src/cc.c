@@ -1,3 +1,5 @@
+#include "header.h"
+
 void cc_0(void)
 {
 	printf("cc_0\n");
