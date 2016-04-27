@@ -3,7 +3,7 @@
 import sqlite3
 
 run = 0
-cscopedb = sqlite3.connect('glusterfs.db')
+cscopedb = sqlite3.connect('source.db')
 testdb = sqlite3.connect('test.db')
 compat_list = []
 

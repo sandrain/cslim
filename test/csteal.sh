@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sdb="glusterfs.db"
+sdb="source.db"
 basepath="/home/hyogi/workspace/glusterfs/"
 header="$basepath/libglusterfs/src/dict.h"
 
