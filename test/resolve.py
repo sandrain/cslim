@@ -44,7 +44,7 @@ def resolve_compat(cid):
 def populate_compat():
     global run
 
-    print '(%d) adding %d functions ..' % (run, len(compat_list))
+    print '(%d) examining %d functions ..' % (run, len(compat_list))
     run += 1
     t = testdb.cursor()
     t.executemany('insert or ignore into compat (sid, func, file, line) ' \
