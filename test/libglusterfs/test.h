@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+#include "compat.h"
+
+dict_add (dict_t *this, char *key, data_t *value);
+dict_add_dynstr_with_alloc (dict_t *this, char *key, char *str);
+dict_allocate_and_serialize (dict_t *this, char **buf, u_int *length);
+dict_copy (dict_t *dict,;
+dict_copy_with_ref (dict_t *dict,;
+dict_del (dict_t *this, char *key);
+dict_destroy (dict_t *this);
+dict_dump_to_log (dict_t *dict);
+dict_dump_to_statedump (dict_t *dict, char *dict_name, char *domain);
+dict_dump_to_str (dict_t *dict, char *dump, int dumpsize, char *format);
+dict_for_key_value (const char *name, const char *value, size_t size);
+dict_get (dict_t *this, char *key);
+dict_get_bin (dict_t *this, char *key, void **bin);
+dict_get_double (dict_t *this, char *key, double *val);
+dict_get_int16 (dict_t *this, char *key, int16_t *val);
+dict_get_int32 (dict_t *this, char *key, int32_t *val);
+dict_get_int64 (dict_t *this, char *key, int64_t *val);
+dict_get_int8 (dict_t *this, char *key, int8_t *val);
+dict_get_ptr (dict_t *this, char *key, void **ptr);
+dict_get_ptr_and_len (dict_t *this, char *key, void **ptr, int *len);
+dict_get_str (dict_t *this, char *key, char **str);
+dict_get_str_boolean (dict_t *this, char *key, int default_val);
+dict_get_uint16 (dict_t *this, char *key, uint16_t *val);
+dict_get_uint32 (dict_t *this, char *key, uint32_t *val);
+dict_get_uint64 (dict_t *this, char *key, uint64_t *val);
+dict_lookup (dict_t *this, char *key, data_t **data);
+dict_match_everything (dict_t *d, char *k, data_t *v, void *data);
+dict_new (void);
+dict_null_foreach_fn (dict_t *d, char *k,;
+dict_ref (dict_t *this);
+dict_remove_foreach_fn (dict_t *d, char *k,;
+dict_reset (dict_t *dict);
+dict_serialize (dict_t *this, char *buf);
+dict_serialize_value_with_delim (dict_t *this, char *buf, int32_t *serz_len,;
+dict_serialized_length (dict_t *this);
+dict_set (dict_t *this,;
+dict_set_bin (dict_t *this, char *key, void *ptr, size_t size);
+dict_set_double (dict_t *this, char *key, double val);
+dict_set_dynptr (dict_t *this, char *key, void *ptr, size_t len);
+dict_set_dynstr (dict_t *this, char *key, char *str);
+dict_set_dynstr_with_alloc (dict_t *this, char *key, const char *str);
+dict_set_int16 (dict_t *this, char *key, int16_t val);
+dict_set_int32 (dict_t *this, char *key, int32_t val);
+dict_set_int64 (dict_t *this, char *key, int64_t val);
+dict_set_int8 (dict_t *this, char *key, int8_t val);
+dict_set_ptr (dict_t *this, char *key, void *ptr);
+dict_set_static_bin (dict_t *this, char *key, void *ptr, size_t size);
+dict_set_static_ptr (dict_t *this, char *key, void *ptr);
+dict_set_str (dict_t *this, char *key, char *str);
+dict_set_uint16 (dict_t *this, char *key, uint16_t val);
+dict_set_uint32 (dict_t *this, char *key, uint32_t val);
+dict_set_uint64 (dict_t *this, char *key, uint64_t val);
+dict_unref (dict_t *this);
+dict_unserialize (char *orig_buf, int32_t size, dict_t **fill);

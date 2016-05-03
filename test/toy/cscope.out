@@ -1,0 +1,869 @@
+cscope 15 $HOME/workspace/csteal/test/src -c               0000004304
+	@aa.c
+
+1 #include 
+	~"header.h
+"
+
+3 void 
+	$aa_0
+(void)
+
+5 
+	`aa_9
+();
+
+6 
+	`dd_0
+();
+
+7 
+	`dd_4
+();
+
+8 
+	`cc_3
+();
+
+9 
+	`printf
+("aa_0\n");
+
+10 
+	}
+}
+
+12 void 
+	$aa_1
+(void)
+
+14 
+	`bb_1
+();
+
+15 
+	`cc_3
+();
+
+16 
+	`printf
+("aa_1\n");
+
+17 
+	}
+}
+
+19 void 
+	$aa_2
+(void)
+
+21 
+	`cc_4
+();
+
+22 
+	`bb_3
+();
+
+23 
+	`printf
+("aa_2\n");
+
+24 
+	}
+}
+
+26 void 
+	$aa_3
+(void)
+
+28 
+	`dd_2
+();
+
+29 
+	`printf
+("aa_3\n");
+
+30 
+	}
+}
+
+32 void 
+	$aa_4
+(void)
+
+34 
+	`cc_5
+();
+
+35 
+	`printf
+("aa_4\n");
+
+36 
+	}
+}
+
+38 void 
+	$aa_5
+(void)
+
+40 
+	`bb_1
+();
+
+41 
+	`bb_2
+();
+
+42 
+	`cc_9
+();
+
+43 
+	`printf
+("aa_5\n");
+
+44 
+	}
+}
+
+46 void 
+	$aa_6
+(void)
+
+48 
+	`bb_4
+();
+
+49 
+	`dd_9
+();
+
+50 
+	`printf
+("aa_6\n");
+
+51 
+	}
+}
+
+53 void 
+	$aa_7
+(void)
+
+55 
+	`aa_3
+();
+
+56 
+	`printf
+("aa_7\n");
+
+57 
+	}
+}
+
+59 void 
+	$aa_8
+(void)
+
+61 
+	`cc_3
+();
+
+62 
+	`bb_4
+();
+
+63 
+	`dd_1
+();
+
+64 
+	`printf
+("aa_8\n");
+
+65 
+	}
+}
+
+67 void 
+	$aa_9
+(void)
+
+69 
+	`dd_0
+();
+
+70 
+	`printf
+("aa_9\n");
+
+71 
+	}
+}
+
+	@bb.c
+
+1 #include 
+	~"header.h
+"
+
+3 void 
+	$bb_0
+(void)
+
+5 
+	`cc_1
+();
+
+6 
+	`printf
+("bb_0\n");
+
+7 
+	}
+}
+
+9 void 
+	$bb_1
+(void)
+
+11 
+	`cc_2
+();
+
+12 
+	`printf
+("bb_1\n");
+
+13 
+	}
+}
+
+15 void 
+	$bb_2
+(void)
+
+17 
+	`cc_3
+();
+
+18 
+	`printf
+("bb_2\n");
+
+19 
+	}
+}
+
+21 void 
+	$bb_3
+(void)
+
+23 
+	`cc_2
+();
+
+24 
+	`printf
+("bb_3\n");
+
+25 
+	}
+}
+
+27 void 
+	$bb_4
+(void)
+
+29 
+	`printf
+("bb_4\n");
+
+30 
+	}
+}
+
+32 void 
+	$bb_5
+(void)
+
+34 
+	`printf
+("bb_5\n");
+
+35 
+	}
+}
+
+37 void 
+	$bb_6
+(void)
+
+39 
+	`printf
+("bb_6\n");
+
+40 
+	}
+}
+
+42 void 
+	$bb_7
+(void)
+
+44 
+	`cc_1
+();
+
+45 
+	`printf
+("bb_7\n");
+
+46 
+	}
+}
+
+48 void 
+	$bb_8
+(void)
+
+50 
+	`cc_1
+();
+
+51 
+	`printf
+("bb_8\n");
+
+52 
+	}
+}
+
+54 void 
+	$bb_9
+(void)
+
+56 
+	`cc_1
+();
+
+57 
+	`printf
+("bb_9\n");
+
+58 
+	}
+}
+
+	@cc.c
+
+1 #include 
+	~"header.h
+"
+
+3 void 
+	$cc_0
+(void)
+
+5 
+	`printf
+("cc_0\n");
+
+6 
+	}
+}
+
+8 void 
+	$cc_1
+(void)
+
+10 
+	`printf
+("cc_1\n");
+
+11 
+	}
+}
+
+13 void 
+	$cc_2
+(void)
+
+15 
+	`printf
+("cc_2\n");
+
+16 
+	}
+}
+
+18 void 
+	$cc_3
+(void)
+
+20 
+	`printf
+("cc_3\n");
+
+21 
+	}
+}
+
+23 void 
+	$cc_4
+(void)
+
+25 
+	`printf
+("cc_4\n");
+
+26 
+	}
+}
+
+28 void 
+	$cc_5
+(void)
+
+30 
+	`printf
+("cc_5\n");
+
+31 
+	}
+}
+
+33 void 
+	$cc_6
+(void)
+
+35 
+	`printf
+("cc_6\n");
+
+36 
+	}
+}
+
+38 void 
+	$cc_7
+(void)
+
+40 
+	`printf
+("cc_7\n");
+
+41 
+	}
+}
+
+43 void 
+	$cc_8
+(void)
+
+45 
+	`printf
+("cc_8\n");
+
+46 
+	}
+}
+
+48 void 
+	$cc_9
+(void)
+
+50 
+	`printf
+("cc_9\n");
+
+51 
+	}
+}
+
+	@dd.c
+
+1 #include 
+	~"header.h
+"
+
+3 void 
+	$dd_0
+(void)
+
+5 
+	`bb_0
+();
+
+6 
+	`printf
+("dd_0\n");
+
+7 
+	}
+}
+
+9 void 
+	$dd_1
+(void)
+
+11 
+	`bb_0
+();
+
+12 
+	`printf
+("dd_1\n");
+
+13 
+	}
+}
+
+15 void 
+	$dd_2
+(void)
+
+17 
+	`bb_0
+();
+
+18 
+	`printf
+("dd_2\n");
+
+19 
+	}
+}
+
+21 void 
+	$dd_3
+(void)
+
+23 
+	`bb_0
+();
+
+24 
+	`printf
+("dd_3\n");
+
+25 
+	}
+}
+
+27 void 
+	$dd_4
+(void)
+
+29 
+	`bb_0
+();
+
+30 
+	`printf
+("dd_4\n");
+
+31 
+	}
+}
+
+33 void 
+	$dd_5
+(void)
+
+35 
+	`bb_0
+();
+
+36 
+	`printf
+("dd_5\n");
+
+37 
+	}
+}
+
+39 void 
+	$dd_6
+(void)
+
+41 
+	`bb_1
+();
+
+42 
+	`printf
+("dd_6\n");
+
+43 
+	}
+}
+
+45 void 
+	$dd_7
+(void)
+
+47 
+	`bb_2
+();
+
+48 
+	`printf
+("dd_7\n");
+
+49 
+	}
+}
+
+51 void 
+	$dd_8
+(void)
+
+53 
+	`bb_3
+();
+
+54 
+	`printf
+("dd_8\n");
+
+55 
+	}
+}
+
+57 void 
+	$dd_9
+(void)
+
+59 
+	`bb_2
+();
+
+60 
+	`printf
+("dd_9\n");
+
+61 
+	}
+}
+
+	@header.h
+
+2 void 
+aa_0
+(void);
+
+3 void 
+aa_1
+(void);
+
+4 void 
+aa_2
+(void);
+
+5 void 
+aa_3
+(void);
+
+6 void 
+aa_4
+(void);
+
+7 void 
+aa_5
+(void);
+
+8 void 
+aa_6
+(void);
+
+9 void 
+aa_7
+(void);
+
+10 void 
+aa_8
+(void);
+
+11 void 
+aa_9
+(void);
+
+14 void 
+bb_0
+(void);
+
+15 void 
+bb_1
+(void);
+
+16 void 
+bb_2
+(void);
+
+17 void 
+bb_3
+(void);
+
+18 void 
+bb_4
+(void);
+
+19 void 
+bb_5
+(void);
+
+20 void 
+bb_6
+(void);
+
+21 void 
+bb_7
+(void);
+
+22 void 
+bb_8
+(void);
+
+23 void 
+bb_9
+(void);
+
+26 void 
+cc_0
+(void);
+
+27 void 
+cc_1
+(void);
+
+28 void 
+cc_2
+(void);
+
+29 void 
+cc_3
+(void);
+
+30 void 
+cc_4
+(void);
+
+31 void 
+cc_5
+(void);
+
+32 void 
+cc_6
+(void);
+
+33 void 
+cc_7
+(void);
+
+34 void 
+cc_8
+(void);
+
+35 void 
+cc_9
+(void);
+
+38 void 
+dd_0
+(void);
+
+39 void 
+dd_1
+(void);
+
+40 void 
+dd_2
+(void);
+
+41 void 
+dd_3
+(void);
+
+42 void 
+dd_4
+(void);
+
+43 void 
+dd_5
+(void);
+
+44 void 
+dd_6
+(void);
+
+45 void 
+dd_7
+(void);
+
+46 void 
+dd_8
+(void);
+
+47 void 
+dd_9
+(void);
+
+	@tmp/test-main.c
+
+1 #include 
+	~<stdio.h
+>
+
+3 #include 
+	~"test.h
+"
+
+5 int 
+	$main
+(void)
+
+7 
+	`aa_0
+();
+
+8 
+	`aa_1
+();
+
+9 
+	`cc_2
+();
+
+10 
+	`bb_3
+();
+
+11 
+	`aa_4
+();
+
+12 
+	`dd_5
+();
+
+13 
+	}
+}
+
+	@
+1
+.
+0
+6
+45
+aa.c
+bb.c
+cc.c
+dd.c
+header.h
+tmp/test-main.c
