@@ -9,10 +9,6 @@ dict_dump_to_log
 dict_dump_to_statedump
 dict_dump_to_str
 dict_for_key_value
-dict_foreach
-dict_foreach_fnmatch
-dict_foreach_match
-dict_full
 dict_get
 dict_get_bin
 dict_get_double
@@ -27,10 +23,8 @@ dict_get_str_boolean
 dict_get_uint16
 dict_get_uint32
 dict_get_uint64
-dict_keys_join
 dict_lookup
 dict_match_everything
-dict_name
 dict_new
 dict_null_foreach_fn
 dict_ref
