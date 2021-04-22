@@ -1,6 +1,6 @@
 ### Cslim
 
-This is a prototype of Cslim, which extracts extracts programmer-specified
+This is a prototype of Cslim, which extracts programmer-specified
 functions from a source package and generates new source files for a target
 package, thereby enabling the reuse of systems software in resource-poor
 execution environments, such as the IoT devices.
